@@ -1,0 +1,614 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kala Academy</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+        integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        /* Change the text color of dropdown links to white when collapsed */
+        @media (max-width: 992px) {
+            .navbar-light .navbar-nav .nav-link {
+                color: rgb(255, 255, 255);
+            }
+        }
+
+        /* Change the toggler icon color to white */
+        .navbar-toggler-icon {
+            background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='white' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+        }
+
+        .nav-link {
+            color: white;
+        }
+
+        /* Custom styles for the toggler button */
+        .navbar-toggler {
+            border: none;
+            /* Removes the outline/border */
+        }
+    </style>
+</head>
+
+<body>
+    <section class="w-100 background-image-section">
+        <div class="navbar_main">
+            <div class="navbar_first"></div>
+            <div class="navbar_second">
+                <a href="#move_to_welcome" class="nav_options">Wecome Note</a>
+                <a href="#move_to_orgcom" class="nav_options">Organising Committee</a>
+                <a href="login.html" class="nav_options">Login</a>
+                <a href="register.html" class="nav_options">Register</a>
+                <div id="menu-icon" class="toggle_navbar">
+                    <i  class="fa-solid fa-bars"></i>
+                </div>
+            </div>
+    
+        </div>
+        <div id="expand_nav" class="expand_navbar_main collapsed">
+            <div class="expand_navbar_inner">
+                <a href="#move_to_welcome" class="mobile_nav_options first">Welcome Note</a>
+                <a href="#move_to_orgcom" class="mobile_nav_options first">Organising Committee</a>
+                <a href="login.html" class="mobile_nav_options second">Login</a>
+                <a href="register.html" class="mobile_nav_options">Register</a>
+    
+            </div>
+    
+        </div>
+
+        <div class="d-flex justify-content-between w-100 main-image-div">
+            <div class="w-75 first-div-image">
+                <div class="logo">
+                    
+
+                </div>
+                <div class="main-heading">
+                    23rd ISP Post Graduate Convention, KOLKATA
+                </div>
+                <div class="second-heading">
+                    BISWA BANGLA CONVENTION CENTRE
+                </div>
+                <div class="third-heading">
+                    11/04/2025, 12/04/2025
+                </div>
+                <a href="register.html" type="button" class="btn register-btn btn-light">REGISTER NOW</a>
+
+            </div>
+            <div class="second-div-image">
+                <div class="scrolling-info">
+                    <div class="scrolling-info-top">
+                        Announcements
+                    </div>
+                    <div class="scrolling-section">
+                        <div class="scrolling-content-main">
+                            <div class="scrolling-content">
+                                To download the scientific program for the convention, click on
+                                https://shorturl.at/gzZJ8
+                            </div>
+                            <div class="scrolling-content">
+                                Registration for Pre Convention Courses is Open. Limited seats. Register soon through
+                                the individual delegate profile on the website.
+                            </div>
+                            <div class="scrolling-content">
+                                To download the convention brochure, click on https://shorturl.at/89Dfk
+                            </div>
+                            <div class="scrolling-content">
+                                To download the guidelines for paper and poster presentation click on
+                                https://shorturl.at/PpPfT
+                            </div>
+                            <!-- <div class="scrolling-content">
+                                Due to a possibility of University PG exams to be held in October for some universities,
+                                the ISP Head Office has taken a decision that the registration amount of the Delegates
+                                (Associate members) appearing for exams falling between 15 October and 25 October shall
+                                be refunded.
+                            </div> -->
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+            </div>
+
+        </div>
+    </section>
+    <div style="margin-bottom: 30px;" id="move_to_welcome">
+
+    </div>
+    <div  class="welcome_text">
+        WELCOME NOTE
+    </div>
+    <div  class="upper_grid_main">
+      
+        <!-- <div class="upper_grid_inner row">
+             <div class="col-12 col-lg-6 top-grid-first">
+                <div class="row ">
+                    <div class="col-12 col-lg-6 photo">
+                        <img class="img" style="height: 50%;" src="https://ispgoaconference.com/media/welcomeNotes/1._Dr._Nitin_Dani_Conference__Secretary.jpg" alt="">
+                        <div style="margin-top: 10px;">
+                          Dr. Nitin Dani
+                        </div>
+                        <div>
+                            Conference Secretary
+                        </div>
+                        <div class="btn welcomebtn">
+                            WELCOME NOTE
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-6 photo">
+                        <img class="img" style="height: 50%;" src="	https://ispgoaconference.com/media/welcomeNotes/74482B4B-A2D4-452A-B142-57595EDDDF53.jpeg" alt="">
+                        <div style="margin-top: 10px;">
+                            Dr. Anil Melath
+                          </div>
+                          <div>
+                            Organizing Chairperson
+                          </div>
+                          <div class="btn welcomebtn">
+                              WELCOME NOTE
+                          </div>
+                    </div>
+               </div>
+                </div>
+                <div class="col-12 col-lg-6 top-grid-second">
+                    <div class="row ">
+                        <div class="col-12 col-lg-6 photo">
+                            <img class="img" class="w-75" style="height: 50%;" src="https://ispgoaconference.com/media/welcomeNotes/3._Dr._Gurparkash_Singh_Chahal_Organizing_Secretary.jpg" alt="">
+                            <div style="margin-top: 10px;">
+                                Dr. Gurparkash Singh
+                              </div>
+                              <div>
+                                Organizing Secretary
+                              </div>
+                              <div class="btn welcomebtn">
+                                  WELCOME NOTE
+                              </div>
+
+                        </div>
+                        <div class="col-12 col-lg-6 photo">
+                            <img class="img" style="height: 50%;" src="https://ispgoaconference.com/media/welcomeNotes/Screenshot_2024-04-24_at_8.09.06PM.png" alt="">
+                            <div style="margin-top: 10px;">
+                                Dr. Abhay Kolte
+                              </div>
+                              <div>
+                                Scientific Chairperson
+                              </div>
+                              <div class="btn welcomebtn">
+                                  WELCOME NOTE
+                              </div>
+                        </div>
+                       </div>
+              </div>
+              <div class="col-12 col-lg-6 top-grid-second">
+                <div class="row ">
+                    <div class="col-12 col-lg-6 photo">
+                        <img class="img" style="height: 50%;" src="https://ispgoaconference.com/media/welcomeNotes/5._Dr_Sandeep_Lawande_Joint_Secretary.jpg" alt="">
+                        <div style="margin-top: 10px;">
+                            Dr. Sandeep Lawande
+                          </div>
+                          <div>
+                            Joint Secretary
+                          </div>
+                          <div class="btn welcomebtn">
+                              WELCOME NOTE
+                          </div>
+                    </div>
+                    <div class="col-12 col-lg-6 photo">
+                        <img class="img" style="height: 50%;" src="https://ispgoaconference.com/media/welcomeNotes/8._Dr_Vishakha_Grover-_Treasurer.jpg" alt="">
+                        <div style="margin-top: 10px;">
+                            Dr. Vishakha Grover
+                          </div>
+                          <div>
+                            Treasurer
+                          </div>
+                          <div class="btn welcomebtn">
+                              WELCOME NOTE
+                          </div>
+                    </div>
+                   </div>
+          </div>
+        </div> -->
+
+        It is a great pleasure and an honor to extend a warm invitation to attend the 23rd ISP Post Graduate Convention  to be held at Biswa Bangla Convention Centre, Kolkata on 11.04.2025 and 12.04.2025.
+The theme of the convention is “Perio-kitab and beyond”. The era of digitalization sometimes make people forget about the books. Hence we are trying to recapitulate by going trough the Perio Kitab.  
+With less than a year to go before the national  event of the ISP – The 23rd ISP Post Graduate Convention , the entire organising committee is working harder than ever to bring you an exciting and unforgettable convention. The convention is being organized to promote and facilitate the dissemination of information related to the best clinical practices of Periodontics.
+This Convention will provide a wonderful forum for you to refresh your knowledge base and explore the latest research, innovations and latest treatment modalities in periodontics. We are leaving no stone unturned in ensuring that your visit to Kolkata is memorable one.
+Looking forward to welcome you all at Kolkata
+
+<div id="move_to_orgcom">
+
+</div>
+
+    </div>
+
+
+
+ <div  class="upper_grid_main_second_wrapper">
+    <!-- ISP HO -->
+    <div class="welcome_text">
+        ISP.HO
+      </div>
+    <div class="ispho_main">
+
+       <div class="upper_grid_inner row">
+        <div class="col-12 top-grid-first">
+           <div class="row">
+               <div class="col-12 photo">
+                   <img class="img_under" style="height: 50%;" src="https://ispgoaconference.com/media/welcomeNotes/1._Dr._Nitin_Dani_Conference__Secretary.jpg" alt="">
+                   <div style="margin-top: 10px;">
+                     Dr. T K Pal
+                   </div>
+                   <div>
+                       Cheif Patron
+                   </div>
+                 
+               </div>
+              
+          </div>
+           </div>
+           <div class="col-12 col-lg-6 top-grid-second">
+               <div class="row ">
+                   <div class="col-12 col-lg-6 photo">
+                       <img class="img_under" style="height: 50%;" src="	https://ispgoaconference.com/media/welcomeNotes/74482B4B-A2D4-452A-B142-57595EDDDF53.jpeg" alt="">
+                       <div style="margin-top: 10px;">
+                           Dr. A.K. Pal
+                         </div>
+                         <div>
+                           Patron
+                         </div>
+                      
+                   </div>
+                   <div class="col-12 col-lg-6 photo">
+                       <img class="img_under" class="w-75" style="height: 50%;" src="https://ispgoaconference.com/media/welcomeNotes/3._Dr._Gurparkash_Singh_Chahal_Organizing_Secretary.jpg" alt="">
+                       <div style="margin-top: 10px;">
+                           Dr. P Banerjee
+                         </div>
+                         <div>
+                           Patron
+                         </div>
+                        
+
+                   </div>
+                 
+                  </div>
+         </div>
+         <div class="col-12 col-lg-6 top-grid-second">
+           <div class="row ">
+               <div class="col-12 col-lg-6 photo">
+                   <img class="img_under" style="height: 50%;" src="https://ispgoaconference.com/media/welcomeNotes/Screenshot_2024-04-24_at_8.09.06PM.png" alt="">
+                   <div style="margin-top: 10px;">
+                       Dr. S Bagchi
+                     </div>
+                     <div>
+                       Patron
+                     </div>
+                     
+               </div>
+               <div class="col-12 col-lg-6 photo">
+                   <img class="img_under" style="height: 50%;" src="https://ispgoaconference.com/media/welcomeNotes/5._Dr_Sandeep_Lawande_Joint_Secretary.jpg" alt="">
+                   <div style="margin-top: 10px;">
+                       Dr. P K Giri
+                     </div>
+                     <div>
+                       Patron
+                     </div>
+                   
+               </div>
+              
+              </div>
+     </div>
+               
+   </div>
+    </div>
+
+
+<!-- Organising committee -->
+ <div class="upper_grid_main_second_wrapper_second">
+    <div class="welcome_text_org">
+        ORGANISING COMMITTEE
+       </div>
+        <div class="upper_grid_main_second">
+          
+          
+            <div class="upper_grid_inner row">
+                 <div class="col-12 top-grid-first">
+                    <div class="row">
+                        <div class="col-6 col-lg-12 photo">
+                            <img class="img_under" style="height: 50%;" src="https://ispgoaconference.com/media/welcomeNotes/1._Dr._Nitin_Dani_Conference__Secretary.jpg" alt="">
+                            <div style="margin-top: 10px;">
+                              Dr. T K Pal
+                            </div>
+                            <div>
+                                Cheif Patron
+                            </div>
+                          
+                        </div>
+                       
+                   </div>
+                    </div>
+                    <div class="col-12 col-lg-6 top-grid-second">
+                        <div class="row ">
+                            <div class="col-12 col-lg-6 photo">
+                                <img class="img_under" style="height: 50%;" src="	https://ispgoaconference.com/media/welcomeNotes/74482B4B-A2D4-452A-B142-57595EDDDF53.jpeg" alt="">
+                                <div style="margin-top: 10px;">
+                                    Dr. A.K. Pal
+                                  </div>
+                                  <div>
+                                    Patron
+                                  </div>
+                               
+                            </div>
+                            <div class="col-12 col-lg-6 photo">
+                                <img class="img_under" class="w-75" style="height: 50%;" src="https://ispgoaconference.com/media/welcomeNotes/3._Dr._Gurparkash_Singh_Chahal_Organizing_Secretary.jpg" alt="">
+                                <div style="margin-top: 10px;">
+                                    Dr. P Banerjee
+                                  </div>
+                                  <div>
+                                    Patron
+                                  </div>
+                                 
+    
+                            </div>
+                          
+                           </div>
+                  </div>
+                  <div class="col-12 col-lg-6 top-grid-second">
+                    <div class="row ">
+                        <div class="col-12 col-lg-6 photo">
+                            <img class="img_under" style="height: 50%;" src="https://ispgoaconference.com/media/welcomeNotes/Screenshot_2024-04-24_at_8.09.06PM.png" alt="">
+                            <div style="margin-top: 10px;">
+                                Dr. S Bagchi
+                              </div>
+                              <div>
+                                Patron
+                              </div>
+                              
+                        </div>
+                        <div class="col-12 col-lg-6 photo">
+                            <img class="img_under" style="height: 50%;" src="https://ispgoaconference.com/media/welcomeNotes/5._Dr_Sandeep_Lawande_Joint_Secretary.jpg" alt="">
+                            <div style="margin-top: 10px;">
+                                Dr. P K Giri
+                              </div>
+                              <div>
+                                Patron
+                              </div>
+                            
+                        </div>
+                       
+                       </div>
+              </div>
+              <div class="col-12 col-lg-6 top-grid-second">
+                <div class="row ">
+                    <div class="col-12 col-lg-6 photo">
+                        <img class="img_under" style="height: 50%;" src="https://ispgoaconference.com/media/welcomeNotes/8._Dr_Vishakha_Grover-_Treasurer.jpg" alt="">
+                        <div style="margin-top: 10px;">
+                            Dr. A Chakraborty
+                          </div>
+                          <div>
+                            Advisor
+                          </div>
+                        
+                    </div>
+                    <div class="col-12 col-lg-6 photo">
+                        <img class="img_under" style="height: 50%;" src="https://ispgoaconference.com/media/welcomeNotes/5._Dr_Sandeep_Lawande_Joint_Secretary.jpg" alt="">
+                        <div style="margin-top: 10px;">
+                            Dr. Rupa Mandal
+                          </div>
+                          <div>
+                            Advisor
+                          </div>
+                        
+                    </div>
+                   
+                   </div>
+          </div>
+          <div class="col-12 col-lg-6 top-grid-first">
+            <div class="row ">
+                <div class="col-12 col-lg-6 photo">
+                    <img class="img_under" style="height: 50%;" src="https://ispgoaconference.com/media/welcomeNotes/8._Dr_Vishakha_Grover-_Treasurer.jpg" alt="">
+                    <div style="margin-top: 10px;">
+                        Dr. Anasua Dasgupta
+                      </div>
+                      <div>
+                        Advisor
+                      </div>
+                    
+                </div>
+                <div class="col-12 col-lg-6 photo">
+                    <img class="img_under" style="height: 50%;" src="https://ispgoaconference.com/media/welcomeNotes/1._Dr._Nitin_Dani_Conference__Secretary.jpg" alt="">
+                    <div style="margin-top: 10px;">
+                      Dr. Ruchira Chakraborty
+                    </div>
+                    <div>
+                        Advisor
+                    </div>
+                  
+                </div>
+              
+           </div>
+            </div>
+            <div class="col-12 top-grid-first">
+                <div class="row ">
+                    <div class="col-12 photo">
+                        <img class="img_under" style="height: 50%;" src="	https://ispgoaconference.com/media/welcomeNotes/74482B4B-A2D4-452A-B142-57595EDDDF53.jpeg" alt="">
+                        <div style="margin-top: 10px;">
+                            Dr. Sawan Shetty
+                          </div>
+                          <div>
+                            Advisor
+                          </div>
+                       
+                    </div>
+                   
+               </div>
+                </div>
+            <div class="col-12 col-lg-6 top-grid-first">
+                <div class="row ">
+                    <div class="col-12 col-lg-6 photo">
+                        <img class="img_under" style="height: 50%;" src="https://ispgoaconference.com/media/welcomeNotes/1._Dr._Nitin_Dani_Conference__Secretary.jpg" alt="">
+                        <div style="margin-top: 10px;">
+                          Dr. Tirthankar Debnath
+                        </div>
+                        <div>
+                            Organizing Chairperson
+                        </div>
+                      
+                    </div>
+                    <div class="col-12 col-lg-6 photo">
+                        <img class="img_under" style="height: 50%;" src="	https://ispgoaconference.com/media/welcomeNotes/74482B4B-A2D4-452A-B142-57595EDDDF53.jpeg" alt="">
+                        <div style="margin-top: 10px;">
+                            Dr. Manoj Kumar Singh
+                          </div>
+                          <div>
+                            Organizing Secretary
+                          </div>
+                       
+                    </div>
+               </div>
+                </div>
+                <div class="col-12 col-lg-6 top-grid-first">
+                    <div class="row ">
+                        <div class="col-12 col-lg-6 photo">
+                            <img class="img_under" style="height: 50%;" src="https://ispgoaconference.com/media/welcomeNotes/1._Dr._Nitin_Dani_Conference__Secretary.jpg" alt="">
+                            <div style="margin-top: 10px;">
+                              Dr. Vineet Nair
+                            </div>
+                            <div>
+                                Co Organizing Secretary cum Treasurer
+                            </div>
+                          
+                        </div>
+                        <div class="col-12 col-lg-6 photo">
+                            <img class="img_under" style="height: 50%;" src="	https://ispgoaconference.com/media/welcomeNotes/74482B4B-A2D4-452A-B142-57595EDDDF53.jpeg" alt="">
+                            <div style="margin-top: 10px;">
+                                Dr. Anindita Banerjee
+                              </div>
+                              <div>
+                                Scientific Chairperson
+                              </div>
+                           
+                        </div>
+                   </div>
+                    </div>
+                    <div class="col-12 top-grid-first">
+                        <div class="row ">
+                            <div class="col-12 col-lg-4 photo">
+                                <img class="img_under" style="height: 50%;" src="https://ispgoaconference.com/media/welcomeNotes/1._Dr._Nitin_Dani_Conference__Secretary.jpg" alt="">
+                                <div style="margin-top: 10px;">
+                                  Dr. Jawaid Badr
+                                </div>
+                                <div>
+                                    Trade Fair Chairperson
+                                </div>
+                              
+                            </div>
+                            <div class="col-12 col-lg-4 photo">
+                                <img class="img_under" style="height: 50%;" src="	https://ispgoaconference.com/media/welcomeNotes/74482B4B-A2D4-452A-B142-57595EDDDF53.jpeg" alt="">
+                                <div style="margin-top: 10px;">
+                                    Dr. Rajasree Ganguly
+                                  </div>
+                                  <div>
+                                   Pre Conference/Convention Chairperson
+                                  </div>
+                               
+                            </div>
+                            <div class="col-12 col-lg-4 photo">
+                                <img class="img_under" style="height: 50%;" src="	https://ispgoaconference.com/media/welcomeNotes/74482B4B-A2D4-452A-B142-57595EDDDF53.jpeg" alt="">
+                                <div style="margin-top: 10px;">
+                                    Dr. Argha Rudra
+                                  </div>
+                                  <div>
+                                   Registration Convenor
+                                  </div>
+                               
+                            </div>
+                       </div>
+                        </div>
+                        
+            </div>
+    
+        </div>
+ </div>
+
+ </div>
+
+ <div id="move_to_welcome" class="welcome_text">
+    Registration Tariff(INR)
+</div>
+
+ <div class="table_main_wrapper">
+    <div class="table_main">
+        <table style="margin: auto; width: 97%;height: 50vh;box-shadow: 1px 1px 10px 0px lightgrey;" >
+            <tr >
+                <th></th>
+                <th>Till Jan 31,2025</th>
+                <th>Till Jan 28,2025</th>
+                <th>Spot</th>
+            </tr>
+            <tr>
+                <td>Associate Member</td>
+                <td>5900</td>
+                <td>6600</td>
+                <td style="border-right: 0px solid;">7600</td>
+            </tr>
+            <tr>
+                <td>Life Member</td>
+                <td>6300</td>
+                <td>7000</td>
+                <td style="border-right: 0px solid;">8000</td>
+            </tr>
+            <tr>
+                <td>Accompanying Person</td>
+                <td>6500</td>
+                <td>7200</td>
+                <td style="border-right: 0px solid;">8200</td>
+            </tr>
+            <tr>
+                <td>Non ISP Member</td>
+                <td>7000</td>
+                <td>7700</td>
+                <td>8700</td>
+            </tr>
+         </table>
+    </div>
+
+ </div>
+
+
+
+
+    <div class="footer_main">
+        <div>© 2024 Indian Society of Periodontology</div>
+        <div class="footer_middle">
+            <a href="refundPolicy.html" class="clickables">Refund Policy</a>
+            <a href="privacyPolicy.html" class="footer_middle_inner clickables">Privacy Policy</a>
+            <a href="contactus.html" class="footer_middle_inner clickables">Contact Us</a>
+            <a href="aboutus.html" class="footer_middle_inner clickables">About Us</a>
+            <a href="termsandcondition.html" class="footer_middle_inner clickables">Terms & Conditions</a>
+        </div>
+        <div>
+            With Gratitude | Sketch Me Globals
+        </div>
+
+    </div>
+
+
+
+
+
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

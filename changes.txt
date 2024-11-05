@@ -1,0 +1,17 @@
+ <div class="col-12 col-lg-6 photo">
+                        <img class="img_under" style="height: 50%;" src="	https://ispgoaconference.com/media/welcomeNotes/74482B4B-A2D4-452A-B142-57595EDDDF53.jpeg" alt="">
+                        <div style="margin-top: 10px;">
+                            Dr. A.K. Pal
+                          </div>
+                          <div>
+                            Patron
+                          </div>
+                       
+                    </div>
+
+
+
+
+
+
+                   
