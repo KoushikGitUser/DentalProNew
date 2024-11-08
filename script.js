@@ -1,11 +1,7 @@
 
-window.addEventListener('scroll', function () {
-    const navbar = document.getElementById('navbar');
-    const navOptions = document.getElementById("nav-options");
+ function globalNav() {
     const menuIcon = document.getElementById("menu-icon");
     const menuIcon2 = document.getElementById("menu-icon-reg");
-    const menuDown = document.getElementById("block");
-    const menuContent = document.getElementById("menuDownContent");
     const expandMobileNav = document.getElementById("expand_nav");
     const expandMobileNav2 = document.getElementById("expand_nav_reg");
 
@@ -31,17 +27,5 @@ window.addEventListener('scroll', function () {
         }
    
     })
-    // if (window.scrollY > 100) { // Adjust the value as needed
-    //     navbar.classList.remove('bg-transparent');
-    //     navOptions.classList.remove("text-[white]");
-    //     navOptions.classList.add("text-[#585b60]")
-    //     menuIcon.classList.remove("text-[white]")
-    //     navbar.classList.add('bg-green', 'shadow-lg'); // Add shadow for better visibility
-    // } else {
-    //     navbar.classList.remove('bg-white_height', 'shadow-lg');
-    //     navbar.classList.add('bg-green');
-    //     navOptions.classList.remove("text-[#585b60]")
-    //     navOptions.classList.add("text-[white]");   
-    //     menuIcon.classList.add("text-[white]")
-    // }
-});
+};
+globalNav();

@@ -77,7 +77,7 @@
       position: relative;
       width: 100%;
       height: 100vh;
-      background-image: url('	https://ispgoaconference.com/static/GOA.jpeg');
+      background-image: url('./images/home\ banner.jpg');
       /* Background image URL */
       background-size: cover;
       background-position: center;
@@ -160,14 +160,14 @@
       padding: 15px 25px !important;
       border-radius: 1px !important;
       color: white !important;
-      background-color: #e0c04f !important;
-      border: 1px solid #e0c04f !important;
+      background-color: #e57ca5 !important;
+      border: 1px solid #e57ca5 !important;
   }
 
   .register-btn:hover {
-      background-color: #cf9d3a !important;
-      border: 1px solid #cf9d3a !important;
-      color: white !important;
+    background-color: #ed9fb6 !important;
+    border: 1px solid #ed9fb6 !important;
+    color: white !important;
   }
 
   .scrolling-info {
@@ -180,7 +180,7 @@
   .scrolling-info-top {
       height: 10%;
       color: white;
-      background-color: #e0c04f;
+      background-color: #e57ca5;
       width: 100%;
       border-bottom: 1px solid white;
       display: flex;
@@ -218,7 +218,7 @@
   }
 
   .upper_grid_main {
-      width: 70%;
+      width: 90%;
       font-size: 17px;
       margin: auto;
       background-color: white;
@@ -414,20 +414,20 @@
   }
 
   .cms_main {
-      width: 50%;
-      text-align: center;
-      margin: auto;
-      margin-bottom: 50px;
-      box-shadow: 1px 1px 10px 0px lightgray;
-      border-radius: 5px;
-  }
+    width: 50%;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 50px;
+    box-shadow: 1px 1px 10px 0px lightgray;
+    border-radius: 5px;
+}
 
-  .cms_content {
-      width: 90%;
-      margin: auto;
-      padding: 20px;
-      text-align: justify;
-  }
+.cms_content {
+    width: 90%;
+    margin: auto;
+    padding: 20px;
+    text-align: justify;
+}
 
   .register_inputs_main_wrapper {
       width: 95%;
@@ -447,9 +447,39 @@
       font-size: 16px;
       margin-bottom: 50px;
   }
+  .dropdown_editpro{
+    width: 100%;
+    margin: auto;
+    outline: none;
+    border: 1px solid #c1c1c1;
+    font-size: 16px;
+    padding: 10px;
+    background-color: #e2e2e2;
+   margin-top: 15px;
+  }
+  .inputs_editpro{
+    width: 100%;
+    margin: auto;
+    outline: none;
+    border: 1px solid white;
+    border-bottom: 1px solid #ed9fb5;
+    font-size: 16px;
+    padding: 10px;
+    background-color: #f8f8f8;
+    margin-bottom: 50px;
+    margin-top: 15px;
+  }
+  .file-input{
+    width: 93%;
+    margin: auto;
+    outline: none;
+    border: 1px solid white;
+    font-size: 16px;
+    margin-bottom: 50px;
+  }
 
   .inputs::placeholder {
-      color: #bcbcbc;
+      color: #969696;
   }
 
   .register_button {
@@ -480,7 +510,7 @@
       display: flex;
       justify-content: flex-start;
       align-items: center;
-      background-color: #ed9fb5;
+      background-color: #e0c14f;
       z-index: 100;
   }
 
@@ -529,7 +559,7 @@
   .expand_navbar_main {
       width: 100%;
       height: fit-content;
-      background-color: #ed9fb5;
+      background-color: #e0c14f;
       display: none;
       z-index: 100;
       position: fixed;
@@ -605,13 +635,12 @@
 
   .cms_banner{
     width: 100%;
-    height: 50vh;
   }
   .cms_banner_img{
   width: 100%;
-  height: 100%;
-  object-fit: cover;
 
+  object-fit: cover;
+  margin-top: 50px;
   }
 
   .mobile_nav_options {
@@ -626,7 +655,7 @@
   }
 
   .mobile_nav_options:hover {
-      background-color: #64c38f;
+    background-color: #ffdc5e;
   }
 
   .first {
@@ -652,7 +681,100 @@
 
   .labels {
       color: #bcbcbc;
-      padding-left: 25px;
+      width: 93%;
+      margin: auto;
+  }
+  .labels_editpro{
+    color: #4f4f4f;
+    width: 100%;
+    margin: auto;
+  }
+  .profile_main_wrapper{
+    width: 100%;
+    height: fit-content;
+    padding: 50px 1px;
+    margin-top: 50px;
+  }
+  .profile_main{
+    width: 70%;
+    margin: auto;
+    border: 1px solid lightgrey;
+    height: fit-content;
+    padding: 30px 15px;
+    border-radius: 5px;
+  }
+  .editpro_main{
+    border-bottom: 2px solid rgb(89, 89, 89);
+  }
+  .profile_top_pic{
+    width: 95%;
+    margin: auto;
+    height: fit-content;
+    padding: 20px 1px;
+  }
+  .lower_sections{
+    width: 100%;
+    margin: auto;
+    height: fit-content;
+    padding: 20px 1px;
+  }
+  .profile_img{
+    width: 20%;
+    margin-top: 50px;
+    border-radius: 500px;
+    margin-left: 5px;
+  }
+  .profile_info_section{
+    width: 95%;
+    margin: auto;
+    height: fit-content;
+    padding: 15px 1px;
+    border-bottom: 2px solid rgb(99, 99, 99);
+  }
+  .profile_info{
+    width: 100%;
+    height: fit-content;
+    padding: 10px 1px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid lightgrey;
+    text-transform: uppercase;
+  }
+
+  .profile_info_fisrt{
+    width: 50%;
+    text-align: start;
+    color: #343434;
+    font-weight: 600;
+  }
+  .profile_info_second{
+    width: 50%;
+    text-align: start;
+    color: #919191;
+    font-weight: 600;
+  }
+  .main_content_editpro{
+    width: 80%;
+    margin: auto;
+    height: fit-content;
+    padding: 20px 1px;
+
+  }
+  .qr_code{
+    padding: 50px 1px;
+  }
+  .address{
+    align-self: flex-start;
+  }
+  .profile_sub_paper_btn{
+    font-size: 15px !important;
+    margin-top: 20px;
+    padding: 10px 15px !important;
+    border-radius: 1px !important;
+    color: white !important;
+    background-color: #e57ca5 !important;
+    border: 1px solid #e57ca5 !important;
   }
 
   @media (min-width: 1700px) {
@@ -801,8 +923,8 @@
       }
 
       .img_under {
-          width: 100%;
-          height: 100%;
+        max-width: 100%;
+          object-fit: cover;
       }
 
       .footer_middle {
@@ -810,6 +932,7 @@
       }
 
       .footer_main {
+          padding: 15px 1px;
           height: 40vh;
           justify-content: space-between;
       }
@@ -852,6 +975,14 @@
         width: 95%;
     }
 } */
+
+@media(max-width:400px){
+    .footer_main{
+        padding: 15px 1px ;
+        height: 55vh;
+        justify-content: space-between;
+    }
+}
 
 
   @media (max-width: 992px) {
